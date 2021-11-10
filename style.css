@@ -34,8 +34,7 @@
 
 .btn {
   position: absolute;
-  
-  
+  cursor: pointer;
   height: 60px;
   top:313px;
     left: 602px;
@@ -71,6 +70,7 @@
 
 .changing {
   position: absolute;
+  cursor: pointer;
   height: 60px;
   top: 446px;
   left: 767px;
