@@ -45,7 +45,8 @@
 .btn::before,.changing::before {
   display: flex;
   color: whitesmoke;
-  content: "OFF";
+  content: "ON";
+  background-color: green;
   top: 3px;
   font-size: 21px;
   font-weight: 700;
@@ -56,7 +57,6 @@
   height: 54px;
   width: 54px;
   box-shadow: 6px 1px 12px 6px #060606;
-  background-color: #9f0000;
   border-radius: 50%;
   justify-content: space-around;
   align-content: stretch;
@@ -64,8 +64,8 @@
 }
 
 .on .btn::before {
-  content: "ON";
-  background-color: green;
+  content: "OFF";
+  background-color: #9f0000;
 }
 
 .changing {
@@ -80,8 +80,8 @@
 }
 
 .changinga .changing::before {
-  content: "ON";
-  background-color: green;
+  content: "OFF";
+  background-color: #9f0000;
 }
 .onoff{
   position: absolute;
